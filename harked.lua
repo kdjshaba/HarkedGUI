@@ -181,7 +181,7 @@ nolimbs.TextSize = 23
 -- SLAVE'S WORK --
  
 for i,slaves in pairs(game:GetDescendants()) do
-    if slaves.Name == "DestroySegway" then
+    if slaves.Name == "HumanoidDied" then
         print("no u")   
  
 kill.MouseButton1Down:connect(function()
